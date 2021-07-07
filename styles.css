@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;600&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -42,13 +45,20 @@ ul li {
     /* background-color: white; */
     background-size: cover;
     background-position: center;
-    background-image:  url(./images/greg-jurgajtis-2NyNF1mrYGY-unsplash.jpg);
+    /* background-image:  url(./images/greg-jurgajtis-2NyNF1mrYGY-unsplash.jpg); */
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0)), url(./images/greg-jurgajtis-2NyNF1mrYGY-unsplash.jpg);
     margin: auto;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     padding-left: 3rem;
     position: absolute;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+
+    box-shadow: -4px 6px 12px 1px rgba(0,0,0,0.44);
+-webkit-box-shadow: -4px 6px 12px 1px rgba(0,0,0,0.44);
+-moz-box-shadow: -4px 6px 12px 1px rgba(0,0,0,0.44);
 }
 
 .text-container {
@@ -56,6 +66,10 @@ ul li {
     top: 10%;
     bottom: 10%;
     transform: translate( 2%,5%);
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 
