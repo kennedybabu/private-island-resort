@@ -323,3 +323,10 @@ a:hover {
      color: white;
  }
 
+
+ footer {
+     min-height: 30vh;
+     background-color: rgb(32, 32, 32);
+     margin: 32px;
+     color: white;
+ }
