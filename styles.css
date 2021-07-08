@@ -269,24 +269,35 @@ a:hover {
     min-height: 70vh;
     padding-left: -5rem;
     gap: 2rem;
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.6)), url(./images/louis-hansel-6vNYg621xCM-unsplash.jpg);  
+    /* background-image: url(./images/louis-hansel-6vNYg621xCM-unsplash.jpg); */
+    background-size: cover;
+    background-position: top;
+    margin: 32px;
 }
 
 
  .package {
      height: 200px;
      width: 250px;
-     border: 1px solid black;
+     border: 1px solid white;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     text-align: center;     
+     text-align: center;   
+     transition: all .3s ease;
+     color: white;
+  
  }
 
  .package:hover {
+     background-color: rgba(255, 255, 255, 0.411);
     box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
     -webkit-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
     -moz-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
+    color: black;
+    border: 1px solid black;
  }
 
 
@@ -296,10 +307,10 @@ a:hover {
  }
 
  .link {
-     color: white;
+     color: black;
      /* position: absolute; */
-     padding: 3px 4px;
-     background-color: black;
+     padding: 5px 8px;
+     background-color: white;
      font-size: 12px;
      margin-top: 1rem;
      transition: ease all .2s;
@@ -307,8 +318,8 @@ a:hover {
 
 
  .link:hover {
-     background-color: white;
+     background-color: black;
      text-decoration: underline;
-     color: black;
+     color: white;
  }
 
