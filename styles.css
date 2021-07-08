@@ -325,8 +325,40 @@ a:hover {
 
 
  footer {
-     min-height: 30vh;
+     min-height: 40vh;
      background-color: rgb(32, 32, 32);
      margin: 32px;
      color: white;
+     margin-top: -1.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
  }
+
+ footer p {
+     font-weight: 400;
+ }
+
+ input {
+     background-color: rgb(32, 32, 32);
+     border: 1px solid white;
+     color: white;
+     padding: 3px;    
+ }
+
+ .contact {
+     display: flex;
+     gap: 2rem;
+ }
+
+ .icon {
+     width: 1rem;
+     height: auto;
+     filter: invert(1);
+ }
+
+ .submit {
+     border: none;
+     padding: 5px 8px;
+ }
+ 
