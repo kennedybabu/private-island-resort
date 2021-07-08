@@ -37,7 +37,7 @@ nav {
 }
 
 .logo {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px 7px;
 }
 
@@ -172,11 +172,6 @@ a:hover {
     max-width: fit-content;
 }
 
-/* .feature-pic {
-    background-image: url(./images/brooke-lark-W9OKrxBqiZA-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-} */
 
 #feature-cuisine {
     min-height: 100vh;
@@ -360,5 +355,25 @@ a:hover {
  .submit {
      border: none;
      padding: 5px 8px;
+ }
+
+ .socials {
+     display: flex;
+     gap: 1rem;
+     margin-top: 1.5rem;
+ }
+
+ .social {
+     width: 1.5rem;
+     height: auto;
+     filter: invert(1);
+     transition: ease all .3s;
+
+ }
+
+ .social:hover {
+     filter: invert(0);
+     transform: scale(1.5);
+     transform: scaleX(3px);
  }
  
