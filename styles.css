@@ -6,7 +6,12 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    font-family: 'Encode Sans SC', sans-serif;
     box-sizing: border-box;
 }
 
@@ -54,7 +59,6 @@ ul li {
     padding-left: 3rem;
     position: absolute;
     color: white;
-    font-family: 'Encode Sans SC', sans-serif;
 
     box-shadow: -4px 6px 12px 1px rgba(0,0,0,0.44);
 -webkit-box-shadow: -4px 6px 12px 1px rgba(0,0,0,0.44);
@@ -113,19 +117,52 @@ a:hover {
 }
 
 .btn:hover {
-    color: black;
-    border: 1px solid turquoise;
-    background-color: turquoise;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
 }
 
 
-.accomodations {
+#accomodations {
     height: 100vh;
+    max-width: 100vw;
+    display: flex;       
+}
+
+#accomodations button {
+    padding: 6px 40px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin-top: 1rem;
+    transition: all .3s ease;
+    margin-right: 1rem;
+}
+
+.accomodation-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.accomodation-text p {
+    max-width: 60%;
+}
+
+.accomodation-image {
+    /* width: 50%; */
+    float: left;
+    flex: 2;
+    background-image: url(./images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .accomodation-img {
-    width: 50%;
-    float: left;
+    max-width: fit-content;
 }
 
 
