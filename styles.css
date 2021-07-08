@@ -86,7 +86,7 @@ h1 {
 
 
 span {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 p {
@@ -267,19 +267,26 @@ a:hover {
     align-items: center;
     display: flex;
     min-height: 70vh;
+    padding-left: -5rem;
+    gap: 2rem;
 }
 
 
  .package {
-     height: 300px;
+     height: 200px;
      width: 250px;
-     border-right: 1px solid black;
+     border: 1px solid black;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     text-align: center;
-     
+     text-align: center;     
+ }
+
+ .package:hover {
+    box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
  }
 
 
