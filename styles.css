@@ -86,11 +86,12 @@ h1 {
 
 
 span {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    max-width: 40%;
 }
 
 p {
-    font-size: 300;
+    font-size: 400;
     margin-top: 5px;
 }
 
@@ -121,6 +122,7 @@ a:hover {
     margin-top: 1rem;
     transition: all .3s ease;
     margin-right: 1rem;
+    text-transform: uppercase;
 }
 
 .btn:hover {
@@ -150,13 +152,13 @@ a:hover {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: start;
     flex-direction: column;
 }
 
 .feature-text p {
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .feature-image {
@@ -219,16 +221,19 @@ a:hover {
 
 .text-overlay p {
     max-width: 60%;
+    margin-top: 1rem;
 }
 
 .text-overlay h3 {
     letter-spacing: 2px;
     font-size: 1.2rem;
+    margin-top: 1rem;
 }
 
 .text-overlay h4 {
     font-weight: 300;
     font-size: .8rem;
+    letter-spacing: 2px;
 }
 
 .travel-cards-1 {
@@ -292,7 +297,7 @@ a:hover {
     -webkit-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
     -moz-box-shadow: -4px 3px 12px 1px rgba(0,0,0,0.44);
     color: black;
-    border: 1px solid black;
+    border: none;
  }
 
 
@@ -354,7 +359,7 @@ a:hover {
 
  .submit {
      border: none;
-     padding: 5px 8px;
+     padding: 4px 8px;
  }
 
  .socials {
