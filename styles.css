@@ -236,3 +236,72 @@ a:hover {
     font-size: .8rem;
 }
 
+.travel-cards-1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(./images/tiraya-adam-BrUt-0UpTLA-unsplash.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.travel-cards-2 {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.486)), url(./images/shifaaz-shamoon-qtbV_8P_Ksk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-cards-3 {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.486)), url(./images/angela-ng-AmThWJhQRkA-unsplash.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+
+.travel {
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 70vh;
+}
+
+
+ .package {
+     height: 300px;
+     width: 250px;
+     border-right: 1px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     
+ }
+
+
+ .price em {
+    margin: 2rem;
+    font-weight: 300;
+ }
+
+ .link {
+     color: white;
+     /* position: absolute; */
+     padding: 3px 4px;
+     background-color: black;
+     font-size: 12px;
+     margin-top: 1rem;
+     transition: ease all .2s;
+ }
+
+
+ .link:hover {
+     background-color: white;
+     text-decoration: underline;
+     color: black;
+ }
+
