@@ -13,11 +13,13 @@ html {
 body {
     font-family: 'Encode Sans SC', sans-serif;
     box-sizing: border-box;
+    padding: 32px;
 }
 
 .header {
     min-height: 100vh;
     display: flex;
+    padding: 32px;
     align-items: center;
     justify-content: center;
     background-size: cover;
@@ -60,7 +62,7 @@ ul li {
     margin: auto;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding-left: 3rem;
     position: absolute;
     color: white;
@@ -163,6 +165,7 @@ a:hover {
     background-image: url(./images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg);
     background-position: center;
     background-size: cover;
+    margin: 32px 0 32px 0;
 }
 
 .feature-img {
