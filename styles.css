@@ -119,4 +119,13 @@ a:hover {
 }
 
 
+.accomodations {
+    height: 100vh;
+}
+
+.accomodation-img {
+    width: 50%;
+    float: left;
+}
+
 
